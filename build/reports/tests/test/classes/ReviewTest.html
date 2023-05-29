@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ReviewTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ReviewTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; ReviewTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.049s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">UC8-리뷰 작성 정상</td>
+<td class="success">createAReview()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">UC8-근무 이력 없음</td>
+<td class="success">createAReviewFail()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">UC8-리뷰 조회 실패(기업 id 일치 항목 없음)</td>
+<td class="success">searchReviewFail()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">UC8-리뷰 조회 정상</td>
+<td class="success">searchReviews()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>DBBoundary - saveEnterDB() visited
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+--------------------------
+ReviewBoundary - searchAReview() visited
+ReviewController - readReviewById() visited
+DBBoundary - readReviewDB() visited
+리뷰 검색 성공
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+--------------------------
+ReviewBoundary - searchAReview() visited
+ReviewController - readReviewById() visited
+DBBoundary - readReviewDB() visited
+리뷰 검색 성공
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+기업 id: bb0000
+리뷰 내용: 1234
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 실패: 리뷰 권한 실패
+리뷰 작성 실패: 권한 없음
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+--------------------------
+ReviewBoundary - searchAReview() visited
+ReviewController - readReviewById() visited
+DBBoundary - readReviewDB() visited
+검색 결과 없음
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveEnterDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveIndiDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+DBBoundary - saveWorkHistoryDB() visited
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+ReviewBoundary - makeAReview() visited
+ReviewController - verifyWorkHistory() visited
+DBBoundary - readIndiDB() visited
+DBBoundary - readWorkHistoryDB() visited
+workhistory 확인 완료: 리뷰 권한 성공
+ReviewController - addToReviewList() visited
+DBBoundary - saveReviewDB() visited
+리뷰 작성 성공
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 2022. 12. 14 오후 10:03:50</p>
+</div>
+</div>
+</body>
+</html>
